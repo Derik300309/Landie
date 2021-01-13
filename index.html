@@ -6,7 +6,7 @@
     <title>Landie</title>
     <link rel="stylesheet" href="./css/main.css">
 </head>
-<body>
+<body class="body">
     <header id="header">
         <nav>
             <div class="toggleMenu" onclick="menuToggle();"></div>
@@ -125,8 +125,10 @@
         function menuToggle(){
             const toggleMenu = document.querySelector('.toggleMenu');
             const navigation = document.querySelector('.navigation');
+            const body = document.querySelector('.body')
             toggleMenu.classList.toggle('active');
             navigation.classList.toggle('active');
+            body.classList.toggle('active');
         }
     </script>
 </body>

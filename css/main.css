@@ -294,6 +294,10 @@ footer .info
 /*******************MEDIA********************/
 @media(max-width: 991px)
 {
+    body *
+    {
+        text-align: center;
+    }
     /*************NAVIGATION*************/
     nav
     {
@@ -374,6 +378,10 @@ footer .info
         position: fixed;
         right: 10px;
     }
+    body.active
+    {
+        overflow-y: hidden;
+    }
     /***********HEADER*********/
     header
     {
@@ -425,6 +433,11 @@ footer .info
     {
         width: 100%;
     }
+    /**********FOOTER***********/
+    footer .info
+    {
+        flex-direction: column;
+    }
     @media(max-width: 670px)
     {
         /**************NAVIGATION***************/
@@ -436,6 +449,8 @@ footer .info
         header
         {
             padding: 80px 20px;
+            background-size: cover;
+            background-position: center;
         }
         header .content .btn
         {
