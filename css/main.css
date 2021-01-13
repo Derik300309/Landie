@@ -387,7 +387,9 @@ footer .info
     {
         background-size: cover;
         padding: 50px 75px;
-        justify-content: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
     }
     /*********ABOUT************/
     .about
@@ -437,7 +439,10 @@ footer .info
     /**********FOOTER***********/
     footer .info
     {
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
     @media(max-width: 670px)
     {
