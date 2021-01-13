@@ -378,9 +378,9 @@ footer .info
         position: fixed;
         right: 10px;
     }
-    body.active
+    .active
     {
-        overflow-y: hidden;
+        overflow: hidden;
     }
     /***********HEADER*********/
     header
