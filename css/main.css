@@ -387,6 +387,7 @@ footer .info
     {
         background-size: cover;
         padding: 50px 75px;
+        justify-content: center;
     }
     /*********ABOUT************/
     .about
