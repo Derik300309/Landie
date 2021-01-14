@@ -113,7 +113,7 @@ header
     min-height: 100vh;
     width: 100%;
     background-image: url(../img/background.png);
-    background-position: right;
+    background-position: center;
     background-repeat: no-repeat;
     padding: 100px 300px;
     display: -webkit-box;
