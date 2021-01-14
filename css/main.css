@@ -12,6 +12,10 @@ html,body
     overflow-x: hidden;
     scroll-behavior: smooth;
 }
+html.active
+{
+    overflow-y: hidden;
+}
 .btn
 {
     padding: 10px 50px;
@@ -377,10 +381,6 @@ footer .info
                 filter: invert(1);
         position: fixed;
         right: 10px;
-    }
-    .active
-    {
-        overflow: hidden;
     }
     /***********HEADER*********/
     header
